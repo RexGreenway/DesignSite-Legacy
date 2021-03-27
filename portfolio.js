@@ -3,27 +3,11 @@ const window_size = window.matchMedia("(min-width: 800px)");
 
 function openNav() {
     document.getElementById("sidebar").style.width = "100%";
-
 };
 
 function closeNav() {
     document.getElementById("sidebar").style.width = "0";
 };
-
-// function openNav() {
-//     if (window_size.matches) {
-//         document.getElementById("opacity").style.display = "none";
-//         document.getElementById("navbar").style.width = "100%";
-//     } else {
-//         document.getElementById("sidebar").style.width = "100%";
-//     }
-// };
-
-// function closeNav() {
-//     document.getElementById("sidebar").style.width = "0";
-// };
-
-
 
 if(document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', afterLoaded);
